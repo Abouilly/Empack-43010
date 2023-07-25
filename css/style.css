@@ -1,0 +1,150 @@
+/*-----------------------------reset-------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-----------------------------HEADER-----------------------------------------*/
+header {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  z-index: 10;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1fr;
+}
+
+header nav ul li:hover {
+  font-size: larger;
+}
+
+header nav ul li {
+  padding: 30px;
+
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: initial;
+  font-weight: 100;
+  width: 100%;
+}
+
+/*-----------------------------HERO------------------------------------------*/
+.HERO {
+  width: 100%;
+  height: 90vh;
+}
+
+h1 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: initial;
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero {
+  padding: 30px
+}
+
+.historia {
+  padding: 40px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.HERONOS {
+  margin-top: 40px;
+  background-color: black;
+
+}
+
+/*----------------------------classes------------------------------------------*/
+.productos div img {
+  height: 210px;
+  width: 250px;
+  text-align: center;
+  margin-top: 40px;
+  margin: 10px;
+
+}
+
+.productos {
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  background-color: rgba(0, 0, 0, 0.253);
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.detalle-productos div img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  margin-top: 50px;
+
+
+  
+}
+
+.detalle-productos {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 500px;
+  gap: 30px;
+  border i: solid 5px rgb(14, 13, 13);
+  position: relative;
+
+}
+
+
+
+
+/*----------FOOTER-----------------------------------------*/
+
+footer div {
+
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+
+}
+
+@media screen and (max-width: 818px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }}
+
+  @media screen and (max-width: 818px) {
+    .img-banner {
+      flex-direction: column;
+      align-items: center;
+    }}
